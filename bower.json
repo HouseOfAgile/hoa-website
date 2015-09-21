@@ -1,0 +1,11 @@
+{
+  "name": "hoaApp",
+  "private": true,
+  "dependencies": {
+    "materialize": "master",
+    "loglevel": "~1.2.0",
+    "modernizr": "~2.8.3",
+    "fontawesome": "master",
+    "hammerjs": "master"
+  }
+}
