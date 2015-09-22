@@ -23,6 +23,11 @@ module.exports = function(config) {
         files: [
             'test/test-main.js',
             //bower:
+            {pattern: 'bower_components/modernizr/modernizr.js', included: false},
+            {pattern: 'bower_components/jquery/dist/jquery.js', included: false},
+            {pattern: 'bower_components/materialize/bin/materialize.js', included: false},
+            {pattern: 'bower_components/loglevel/dist/loglevel.min.js', included: false},
+            {pattern: 'bower_components/hammerjs/hammer.js', included: false},
             //endbower
             {pattern: 'app/Resources/public/scripts/**/*.js', included: false},
             {pattern: 'test/**/*Spec.js', included: false}
