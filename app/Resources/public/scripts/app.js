@@ -16,7 +16,6 @@ define(function(require, exports) {
 
     exports.init = function init() {
         log.setLevel(0);
-        log.debug('\'Allo \'Allo');
         log.debug('Running jQuery:', $().jquery);
         //animatedWords.initHeadline();
         //$('.button-collapse').sideNav();

@@ -1,8 +1,0 @@
-{
-    "name": "hammerjs",
-    "main": "hammer.js",
-    "ignore": [
-        "tests",
-        "src"
-    ]
-}

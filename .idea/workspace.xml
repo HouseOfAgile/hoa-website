@@ -2,14 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acd5562e-11df-4291-bbd9-dca2ec79b4d8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UPGRADE-2.2.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UPGRADE-2.3.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UPGRADE-2.4.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UPGRADE.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/bower_components/fontawesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.eot" afterPath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.woff2" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.woff" afterPath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Bold.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Bold.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Bold.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Bold.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Bold.woff" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Bold.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Light.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Light.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Light.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Light.woff2" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Light.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Light.woff" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Light.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Medium.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Medium.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Medium.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Medium.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Medium.woff" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Medium.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Regular.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Regular.woff" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Thin.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Thin.ttf" afterPath="$PROJECT_DIR$/bower_components/materialize/font/roboto/Roboto-Thin.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Thin.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Thin.woff" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/roboto/Roboto-Thin.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/background1.jpg" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/background1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/background1.jpg" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/background1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/background2.jpg" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/background2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/background2.jpg" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/background2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/background3.jpg" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/background3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/background3.jpg" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/background3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/.bower.json" afterPath="$PROJECT_DIR$/bower_components/fontawesome/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/.bower.json" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/.bower.json" afterPath="$PROJECT_DIR$/bower_components/materialize/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/.bowerrc" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.bowerrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/.gitignore" afterPath="$PROJECT_DIR$/bower_components/fontawesome/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/.gitignore" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/.jscsrc" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.jscsrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/.jshintrc" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/.npmignore" afterPath="$PROJECT_DIR$/bower_components/fontawesome/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/.travis.yml" afterPath="$PROJECT_DIR$/bower_components/hammerjs/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/.travis.yml" afterPath="$PROJECT_DIR$/bower_components/materialize/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/CHANGELOG.md" afterPath="$PROJECT_DIR$/bower_components/hammerjs/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/CHANGELOG.md" afterPath="$PROJECT_DIR$/bower_components/materialize/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/bower_components/hammerjs/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/bower_components/materialize/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/Gruntfile.coffee" afterPath="$PROJECT_DIR$/bower_components/hammerjs/Gruntfile.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/bower_components/fontawesome/HELP-US-OUT.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/LICENSE.md" afterPath="$PROJECT_DIR$/bower_components/hammerjs/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/LICENSE" afterPath="$PROJECT_DIR$/bower_components/materialize/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/LICENSE" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/LICENSE" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/starter-template/LICENSE" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/starter-template/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/font/material-design-icons/Material-Design-Icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.svg" afterPath="$PROJECT_DIR$/bower_components/materialize/font/material-design-icons/Material-Design-Icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/README.md" afterPath="$PROJECT_DIR$/bower_components/hammerjs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_buttons.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_cards.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_chips.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_chips.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_collapsible.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_collapsible.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_color.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_color.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_core.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_dropdown.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_dropdown.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_form.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_form.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_global.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_global.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_grid.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_list.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_materialbox.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_materialbox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_mixins.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_modal.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_navbar.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_normalize.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_normalize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_path.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_preloader.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_preloader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_roboto.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_roboto.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_sideNav.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_sideNav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_slider.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_slider.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_table_of_contents.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_table_of_contents.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_tabs.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_toast.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_toast.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_tooltip.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_tooltip.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_variables.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/components/_waves.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/components/_waves.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/animated.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/animated.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/animation.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/public/scripts/app.js" afterPath="$PROJECT_DIR$/app/Resources/public/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/bower.json" afterPath="$PROJECT_DIR$/bower_components/fontawesome/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/bower.json" afterPath="$PROJECT_DIR$/bower_components/hammerjs/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/bower.json" afterPath="$PROJECT_DIR$/bower_components/materialize/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/buttons.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/buttons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/cards.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/cards.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/character_counter.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/character_counter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/chips.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/chips.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/tests/collapsible-test.js" afterPath="$PROJECT_DIR$/bower_components/materialize/tests/collapsible-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/collapsible.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/collapsible.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/component.json" afterPath="$PROJECT_DIR$/bower_components/hammerjs/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/core.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/dropdown.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/css/font-awesome.css.map" afterPath="$PROJECT_DIR$/bower_components/fontawesome/css/font-awesome.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/bower_components/fontawesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/bower_components/fontawesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/bower_components/fontawesome/scss/font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/bower_components/fontawesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/forms.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/forms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/global.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/hammer.js" afterPath="$PROJECT_DIR$/bower_components/hammerjs/hammer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/hammer.min.js" afterPath="$PROJECT_DIR$/bower_components/hammerjs/hammer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/hammer.min.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/hammer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/hammer.min.map" afterPath="$PROJECT_DIR$/bower_components/hammerjs/hammer.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/tests/helpers/helpers.js" afterPath="$PROJECT_DIR$/bower_components/materialize/tests/helpers/helpers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hoa-website.iml" afterPath="$PROJECT_DIR$/.idea/hoa-website.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/icons.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/controller/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/controller/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/tests/index.mustache" afterPath="$PROJECT_DIR$/bower_components/materialize/tests/index.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/js/init.js" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/js/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/js/init.js" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/js/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/starter-template/js/init.js" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/starter-template/js/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/jquery.easing.1.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/jquery.timeago.min.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/jquery.timeago.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/larger.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/larger.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/leanModal.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/leanModal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/list.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/js/masonry.pkgd.min.js" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/js/masonry.pkgd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/materialbox.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/materialbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/bin/materialize.css" afterPath="$PROJECT_DIR$/bower_components/materialize/bin/materialize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/css/materialize.css" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/css/materialize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/bin/materialize.js" afterPath="$PROJECT_DIR$/bower_components/materialize/bin/materialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/js/materialize.js" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/js/materialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/css/materialize.min.css" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/css/materialize.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/dist/js/materialize.min.js" afterPath="$PROJECT_DIR$/bower_components/materialize/dist/js/materialize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/sass/materialize.scss" afterPath="$PROJECT_DIR$/bower_components/materialize/sass/materialize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/mixins.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/extras/noUiSlider/nouislider.css" afterPath="$PROJECT_DIR$/bower_components/materialize/extras/noUiSlider/nouislider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/extras/noUiSlider/nouislider.js" afterPath="$PROJECT_DIR$/bower_components/materialize/extras/noUiSlider/nouislider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/extras/noUiSlider/nouislider.min.js" afterPath="$PROJECT_DIR$/bower_components/materialize/extras/noUiSlider/nouislider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/package.js" afterPath="$PROJECT_DIR$/bower_components/materialize/package.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/hammerjs/package.json" afterPath="$PROJECT_DIR$/bower_components/hammerjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/parallax.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/parallax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/path.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/date_picker/picker.date.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/date_picker/picker.date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/date_picker/picker.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/date_picker/picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/pushpin.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/pushpin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/rotated-flipped.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/tests/setup.js" afterPath="$PROJECT_DIR$/bower_components/materialize/tests/setup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/sideNav.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/sideNav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/slider.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/stacked.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/css/style.css" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/masonry-template/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/css/style.css" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/parallax-template/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/templates/starter-template/css/style.css" afterPath="$PROJECT_DIR$/bower_components/materialize/templates/starter-template/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/tabs.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/tests/css/testing-container-styles.css" afterPath="$PROJECT_DIR$/bower_components/materialize/tests/css/testing-container-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/toasts.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/toasts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/tooltip.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/transitions.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/transitions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/fontawesome/less/variables.less" afterPath="$PROJECT_DIR$/bower_components/fontawesome/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/velocity.min.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/velocity.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/materialize/js/waves.js" afterPath="$PROJECT_DIR$/bower_components/materialize/js/waves.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hoa-website.iws" />
@@ -35,43 +209,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="765">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-              <folding>
-                <element signature="e#7#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing_dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="480">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
+            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="510">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="330">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="jc.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/img/jc.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meggie.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/img/meggie.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parallax1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/img/parallax1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yo-grunt-bower-symfony.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/img/yo-grunt-bower-symfony.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="615">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="2670">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -79,64 +269,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="510">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0689654" vertical-offset="0" max-vertical-offset="150">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".jshintrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.jshintrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6147541" vertical-offset="0" max-vertical-offset="690">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.60897434" vertical-offset="0" max-vertical-offset="936">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".bowerrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <file leaf-file-name="animatedWords.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/modules/animatedWords.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3015">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -155,17 +312,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Resources/public/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
         <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/controller/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/public/scripts/app.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -183,10 +342,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
-    <option name="y" value="24" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -239,7 +398,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="grunt" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoa-website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,7 +472,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pet2care/pet2care-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gls/gls-project" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="settings.github" />
@@ -296,19 +519,31 @@
       <option name="number" value="Default" />
       <updated>1442829388800</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clean Readme and add files to ignore">
+      <created>1445424189978</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1445424189978</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update gitignore">
+      <created>1445530515881</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1445530515881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299595" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -316,14 +551,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -342,44 +578,18 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Clean Readme and add files to ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean Readme and add files to ignore" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="960">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="765">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="240">
-          <caret line="4" column="75" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="480">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -395,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="615">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,9 +644,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="765">
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -447,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="240">
           <caret line="4" column="75" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -455,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="480">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -471,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="615">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,13 +698,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/public/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.591837" vertical-offset="0" max-vertical-offset="4005">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -543,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
@@ -564,19 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="960">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <caret line="4" column="75" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,25 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="765">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="330">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,17 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="615">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="510">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0689654" vertical-offset="0" max-vertical-offset="150">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
@@ -639,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,16 +798,171 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/GruntBundle/Templating/Asset/BasePackage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="330">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8076925" vertical-offset="126" max-vertical-offset="1035">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="765">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18705">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/styles/critical/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="948">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/controller/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="93.458336" vertical-offset="3083" max-vertical-offset="4020">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08223684" vertical-offset="0" max-vertical-offset="4005">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="960">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/img/arnaud.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/img/jc.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/img/meggie.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/img/parallax1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/img/yo-grunt-bower-symfony.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="510">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/public/scripts/modules/animatedWords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3015">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6147541" vertical-offset="0" max-vertical-offset="690">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.60897434" vertical-offset="0" max-vertical-offset="936">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding />
         </state>
       </provider>
