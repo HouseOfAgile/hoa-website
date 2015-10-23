@@ -3,6 +3,7 @@ $fa-font-path: "../font/fontawesome" ;
 @import "fontawesome/scss/font-awesome";
 @import "materialize/sass/materialize";
 
+$primary-color: color("materialize-blue", "lighten-2") !default;
 .icon-block {
     padding: 0 15px;
 }
