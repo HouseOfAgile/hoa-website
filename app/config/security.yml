@@ -1,0 +1,75 @@
+# To get started with security, check out the documentation:
+# http://symfony.com/doc/current/book/security.html
+security:
+    role_hierarchy:
+        # those are the roles I will use (less verbose)
+        ROLE_ADMIN:             [ROLE_SONATA_ADMIN]
+        ROLE_SUPER_ADMIN:       [ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
+    encoders:
+        FOS\UserBundle\Model\UserInterface: bcrypt
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username_email
+        admin_user:
+            id: app_user_provider.admin
+        app_chain_provider:
+            chain:
+                providers: [ fos_userbundle, admin_user ]
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+            # activate different ways to authenticate
+
+            # http_basic: ~
+            # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
+
+            # form_login: ~
+            # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+        admin:
+            pattern:            /admin(.*)
+            form_login:
+                provider:       admin_user
+                login_path:     admin_login
+                check_path:     admin_login_check
+                failure_path:   admin_login
+                default_target_path: sonata_admin_dashboard
+                use_forward: false
+                use_referer: true
+                csrf_token_generator: security.csrf.token_manager
+            logout:
+                path:           admin_logout
+                target:         admin_login
+            anonymous:          true
+            context: app_context
+
+        main:
+            pattern: ^/
+            form_login:
+                provider: app_chain_provider
+                login_path: /login
+                check_path: /login_check
+                failure_path: /login
+                default_target_path: /
+                use_forward: false
+                use_referer: true
+            logout:       true
+            anonymous:    true
+            context: app_context
+    access_control:
+        # URL of FOSUserBundle which need to be available to anonymous users
+        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/connect.*, role: IS_AUTHENTICATED_ANONYMOUSLY }
+
+        # Admin login page needs to be access without credential
+        - { path: ^/admin/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/logout$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/login_check$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+
+        - { path: ^/account/, role: ROLE_USER }
+        - { path: ^/admin/, role: ROLE_SONATA_ADMIN }

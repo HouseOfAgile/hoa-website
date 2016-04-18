@@ -1,0 +1,16 @@
+services:
+    app_manager.user_admin:
+        class: FOS\UserBundle\Doctrine\UserManager
+        public: false
+        arguments:
+            - "@security.encoder_factory"
+            - "@fos_user.util.username_canonicalizer"
+            - "@fos_user.util.email_canonicalizer"
+            - "@fos_user.object_manager"
+            - AppBundle\Entity\User
+
+    manager.contact:
+        class: AppBundle\Manager\ContactManager
+        arguments:
+            - "@doctrine.orm.entity_manager"
+            - "@event_dispatcher"

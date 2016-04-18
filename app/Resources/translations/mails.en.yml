@@ -1,0 +1,6 @@
+new_contact:
+    email: new_contact.email
+    fullName: new_contact.fullName
+    new_member_body_plain: new_contact.new_member_body_plain
+    subject: new_contact.subject
+    you_have_a_new_message: new_contact.you_have_a_new_message

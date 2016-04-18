@@ -1,0 +1,408 @@
+@import "../../../vendor/twbs/bootstrap/less/variables.less";
+@import "variables.less";
+
+.transition (@time:0.9s) {
+  -webkit-transition: all @time ease;
+  -moz-transition: all @time ease;
+  -o-transition: all @time ease;
+  transition: all @time ease;
+  behavior: url(//cdn.jsdelivr.net/css3pie/2.0b1/PIE.htc);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+// Font Selections
+
+.serif-font() {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.script-font() {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.body-font() {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.heading-font() {
+  font-family: 'Comfortaa', cursive;
+}
+
+#full-screen-spinner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  z-index: 9999;
+}
+
+nav {
+  display: none;
+}
+
+// Global Section Styles
+
+section {
+  padding: 100px 0;
+  h2.section-heading {
+    .heading-font();
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
+
+// Custom Navigation Bar
+
+a.navbar-brand.page-scroll {
+  .heading-font();
+}
+
+.navbar-default {
+  background-color: @navbar-bgcolor;
+  border-color: transparent;
+  .navbar-brand {
+    color: @navbar-color;
+    .script-font;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: white;
+    }
+  }
+  .navbar-collapse {
+    border-color: fade(white, 2%);
+  }
+  .navbar-toggle {
+    background-color: @brand-primary;
+    border-color: @brand-primary;
+    .icon-bar {
+      background-color: white;
+    }
+    &:hover,
+    &:focus {
+      background-color: @brand-primary;
+    }
+  }
+  .nav {
+    li {
+      a {
+        .heading-font;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: @navbar-color;
+        &:hover,
+        &:focus {
+          color: white;
+          outline: none;
+        }
+      }
+    }
+  }
+  .navbar-nav > .open > a,
+  .navbar-nav > .open > a:hover,
+  .navbar-nav > .open > a:focus {
+    color: white;
+  }
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 9px;
+    min-width: 95px;
+    background-color: @navbar-bgcolor;
+  }
+  .navbar-nav > .active > a {
+    border-radius: 0;
+    color: white;
+    background-color: @brand-primary;
+  }
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: darken(@brand-primary, 10%);
+  }
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: @navbar-bgcolor;
+  }
+}
+
+.navbar-default:not(.navbar-shrink) {
+  .navbar-nav > .active > a {
+    border-radius: 0;
+    color: white;
+  }
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+  }
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 9px;
+    .transition(400ms);
+    min-width: 95px;
+    background-color: transparent;
+    border: none;
+    /* border: 1px solid rgba(0, 0, 0, 0.15); */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+    .navbar-brand {
+      font-size: 2em;
+      font-weight: bold;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav > .active > a {
+      border-radius: 3px;
+    }
+  }
+
+  .navbar-default.navbar-shrink {
+    background-color: @navbar-bgcolor;
+    padding: 10px 0;
+    .navbar-brand {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.btn-huge {
+  padding: 30px 80px;
+  font-size: 36px;
+  .heading-font();
+}
+
+header {
+  background-color: #015f51;
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;  text-align: center;
+  color: white;
+  .intro {
+    display: none;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .intro-heading {
+      .heading-font;
+      font-size: 36px;
+      line-height: 50px;
+      margin-bottom: 60px;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width : 480px) {
+  .btn-huge {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  .intro-hoa {
+    .intro-heading {
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-huge {
+    padding: 20px 40px;
+    font-size: 24px;
+  }
+  header {
+    .intro-hoa {
+      .intro-heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 40px;
+        display: inline-flex;
+        div {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width:992px) {
+  header {
+    .intro-hoa {
+      .intro-heading {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 60px;
+        display: inline-flex;
+        div {
+          margin-right: 20px;
+        }
+      }
+    }
+  }}
+
+#services {
+  .service-box {
+    border: 1px dotted @brand-primary;
+    padding: 20px;
+    margin: 20px;
+    min-height: 320px;
+    .transition(300ms);
+  }
+  .service-box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+// Team Section
+#team {
+  background-color: @navbar-bgcolor;
+  color: white;
+  .text-muted {
+    color: #eaeaea;
+  }
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+  img {
+    margin: 0 auto;
+    border: 7px solid white;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      display: block;
+      background-color: @gray-darkest;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      font-size: 20px;
+      line-height: 40px;
+      color: white;
+      outline: none;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: #ffffdd;
+        color: black;
+      }
+    }
+  }
+}
+
+// Contact
+
+section#contact {
+  padding-top: 100px;
+  textarea {
+    height: 200px;
+    font-size: 20px;
+  }
+  #contact_form {
+    display: none;
+  }
+  button#hoa-contact-us {
+    margin-top: 100px;
+  }
+
+}
+
+form.form-horizontal {
+  margin-top: 60px;
+}
+
+// Footer
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  .body-font();
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+footer {
+
+
+  background-color: #222;
+  padding: 25px 0;
+  text-align: center;
+  color: white;
+  span.copyright {
+    line-height: 40px;
+    .heading-font;
+    text-transform: none;
+  }
+  ul.quicklinks {
+    margin-bottom: 0;
+    line-height: 40px;
+    .heading-font;
+    text-transform: none;
+  }
+  a[class="footer-link"]:hover,
+  a[class="footer-link"] {
+    color: white;
+  }
+  .credit-modal {
+    color: black;
+    text-align: left;
+    a {
+      color: @brand-primary;
+    }
+  }
+}

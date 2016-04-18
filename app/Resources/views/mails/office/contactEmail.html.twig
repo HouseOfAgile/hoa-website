@@ -1,0 +1,19 @@
+{% extends 'HOANotificationBundle:Mails:layoutMail.html.twig' %}
+{% trans_default_domain 'mails' %}
+
+{% block subject %}{{ parent() }} {{ 'new_contact.subject'|trans() }}{% endblock %}
+
+{% block body_text %}
+    {% autoescape false %}
+    {{ 'new_contact.new_member_body_plain'|trans() }}
+    {% endautoescape %}
+{% endblock %}
+
+{% block body_html %}
+    <p>{{ 'new_contact.you_have_a_new_message'|trans() }},</p>
+    <p>{{ 'new_contact.fullName'|trans() }}:<b>{{ event.fullName }}</b></p>
+    <p>{{ 'new_contact.email'|trans() }}:<b>{{ event.email }}</b></p>
+    <div style="font-family: Georgia, serif;font-size: 18px;font-style: italic;margin: 0.25em 0;padding: 0.25em 40px;line-height: 1.45;position: relative;color: #383838;">
+        {{ event.message|raw }}
+    </div>
+{% endblock %}

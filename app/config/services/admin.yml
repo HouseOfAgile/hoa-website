@@ -1,0 +1,23 @@
+services:
+    admin.service:
+        class: AppBundle\Admin\ServiceAdmin
+        arguments: [~, AppBundle\Entity\Service, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Service, group: hoacontent }
+    admin.team_member:
+        class: AppBundle\Admin\TeamMemberAdmin
+        arguments: [~, AppBundle\Entity\TeamMember, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: TeamMember, group: hoacontent }
+
+    admin.social_network:
+        class: AppBundle\Admin\SocialNetworkAdmin
+        arguments: [~, AppBundle\Entity\SocialNetwork, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: SocialNetwork }
+
+    admin.contact:
+        class: AppBundle\Admin\ContactAdmin
+        arguments: [~, AppBundle\Entity\Contact, ~]
+        tags:
+            - { name: sonata.admin, manager_type: orm, label: Contact, group: communication }

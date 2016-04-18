@@ -1,0 +1,10 @@
+{% extends 'SonataAdminBundle::standard_layout.html.twig' %}
+
+{% block side_bar_after_nav '' %}
+
+{% block sonata_top_nav_menu %}
+    <div class="navbar-right">
+        {{ locale_switcher() }}
+    </div>
+    {{ parent() }}
+{% endblock %}

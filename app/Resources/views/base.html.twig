@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+    {% block stylesheet %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" media="screen">
+    {% endblock stylesheet %}
+
+    <!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
+    {% include 'BraincraftedBootstrapBundle::ie8-support.html.twig' %}
+    {% block favicon %}
+
+        <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="{{ asset('images/favicon.ico') }}">
+        <!--[if IE]>
+        <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}"><![endif]-->
+
+        <!-- The below are optional but encouraged -->
+
+        <!-- Touch icon for iOS 2.0+ and Android 2.1+: -->
+        <link rel="apple-touch-icon-precomposed" href="{{ asset('images/favicon-152.png') }}">
+
+        <!-- The below are optional -->
+
+        <!-- IE 10 Metro tile icon (Metro equivalent of apple-touch-icon): -->
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="{{ asset('images/favicon-144.png') }}">
+        <!-- IE 11 live tiles: -->
+        <meta name="msapplication-square70x70logo" content="{{ asset('images/favicon-70.png') }}"/>
+        <meta name="msapplication-square150x150logo" content="{{ asset('images/favicon-150.png') }}"/>
+        <meta name="msapplication-square310x310logo" content="{{ asset('images/favicon-310.png') }}"/>
+        <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ asset('images/favicon-152.png') }}">
+        <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('images/favicon-144.png') }}">
+        <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ asset('images/favicon-120.png') }}">
+        <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('images/favicon-114.png') }}">
+        <!-- For first- and second-generation iPad: -->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('images/favicon-72.png') }}">
+        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link rel="apple-touch-icon-precomposed" href="{{ asset('images/favicon-57.png') }}">
+    {% endblock favicon %}
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+</head>
+{% block body_wrapper %}<body>{% endblock %}
+
+
+{% block body %}{% endblock %}
+{% block javascripts %}
+
+<!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+<script src="{{ asset('js/jquery.js') }}"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.0.0/js/smooth-scroll.js"></script>
+<!-- Include all JavaScripts, compiled by Assetic -->
+<script src="{{ asset('js/bootstrap.js') }}"></script>
+
+{% endblock %}
+</body>
+</html>
+
+

@@ -1,0 +1,25 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+    prefix: /
+
+lexik_translation_edition:
+    resource: "@LexikTranslationBundle/Resources/config/routing.yml"
+    prefix:   /adminTranslation
+
+lunetics_locale:
+    resource: "@LuneticsLocaleBundle/Resources/config/routing.yml"
+
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+    prefix: /
+
+_sonata_admin:
+    resource: .
+    type: sonata_admin
+    prefix: /admin
+
+
+admin_area:
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
+    prefix: /admin

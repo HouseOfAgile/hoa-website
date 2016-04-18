@@ -1,0 +1,55 @@
+AppBundle\Entity\SocialNetwork:
+    jc_linkedin:
+        name: linkedin
+        url: http://de.linkedin.com/in/jeanchristophemeillaud
+    jc_twitter:
+        name: twitter
+        url: http://www.twitter.com/duralez
+    jc_github:
+        name: github
+        url: https://github.com/jmeyo
+    jc_stack:
+        name: stack-overflow
+        url: http://stackoverflow.com/users/236281/jean-christophe-meillaud
+    meggie_linkedin:
+        name: linkedin
+        url: https://fr.linkedin.com/in/meggie-bouchard-bergevin-27bb5427/en
+    meggie_twitter:
+        name: twitter
+        url: http://www.twitter.com
+AppBundle\Entity\TeamMemberTranslation:
+    meggie_en:
+        title: 'Product & Agility'
+        presentation: 'Worked several years in the Legacy major companies in France (Total, Loreal, Essilor), as a Change Consultant, she evolves into the Product world, and she is now a Scrum evangelist, because she knows ;)'
+        locale: 'en'
+    meggie_fr:
+        title: 'Produit et agilité'
+        presentation: 'Ayant travaillé plusieurs années dans des entreprises du cac40 autour du management du changement (Total, Loreal, Essilor)'
+        locale: 'fr'
+    meggie_de:
+        title: sdf sdf
+        presentation: sdf
+        locale: 'de'
+    jc_en:
+        title: 'Build & Deliver'
+        presentation: 'Powergeek, serial entreprenor, multiple CTO. 20 years of experiences, from hacking to consulting, worked for the biggest companies, and started several startups =]'
+        locale: 'en'
+    jc_fr:
+        title: 'Construit et Livre'
+        presentation: 'Powergeek, entrepreneur en série, directeur technique sur plusieurs startups, du hacking au consulting, son expérience au sein des grosses compagnies du cac40 en fait un solide leader technique.'
+        locale: 'fr'
+    jc_de:
+        title: sdfdsf
+        presentation: sd
+        locale: 'de'
+AppBundle\Entity\TeamMember:
+    meggie:
+        fullName: Meggie Bergevin
+        teamPicture: 'images/meggie.jpg'
+        socialNetworks: [@meggie_linkedin]
+        translation: [@meggie_en,@meggie_fr,@meggie_de]
+    jc:
+        fullName: 'Jean-Christophe Meillaud'
+        teamPicture: 'images/jc.jpg'
+        socialNetworks: [@jc_linkedin,@jc_twitter,@jc_stack,@jc_github]
+        translation: [@jc_en,@jc_fr,@jc_de]

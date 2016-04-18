@@ -1,0 +1,166 @@
+{% extends 'app/layout.html.twig' %}
+
+
+{% block main %}
+    {% if not contactSent %}
+    <script>document.body.style.display = "none";</script>
+    <div id="full-screen-spinner" class="fullHeight-section">
+        <div id="gasp-loader"></div>
+    </div>
+    {% endif %}
+
+
+    <!-- Header -->
+    <header class="fullHeight-section">
+        <div class="container">
+            <div class="intro">
+                <div class="row">
+                    <div class="col-md-12">
+                        {% image 'images/hoa-logo-black-400.png' %}
+                        <img src="{{ asset_url }}" class="img-responsive center-block wow zoomIn" data-wow-duration="1s"
+                             data-wow-delay="100ms"/>
+                        {% endimage %}
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="intro-heading">
+                            <div class="wow fadeInLeft" data-wow-duration="400ms"
+                                 data-wow-delay="1200ms">{{ 'header.punch_phrase_1'|trans|raw }}</div>
+                            <div class="wow fadeInRight" data-wow-duration="400ms"
+                                 data-wow-delay="1600ms">{{ 'header.punch_phrase_2'|trans|raw }}</div>
+                            <div class="wow bounceIn" data-wow-duration="300ms"
+                                 data-wow-delay="2400ms">{{ 'header.punch_phrase_3'|trans|raw }}</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#services" class="page-scroll btn btn-huge btn-info wow fadeIn" data-scroll data-wow-duration="600ms"
+                   data-wow-delay="3200ms">{{ 'header.tell_me_more'|trans }}</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="fullHeight-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ 'services.heading'|trans }}</h2>
+                    <h3 class="section-subheading text-muted">{{ 'services.subheading'|trans }}</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                {% for service in services %}
+                <div class="col-md-4">
+                    <div class="service-box">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-{{ service.icon|default('laptop') }} fa-stack-1x fa-inverse"></i>
+                    </span>
+                        <h4 class="service-heading">{{ service.translate.title|trans }}</h4>
+
+                        <p class="text-muted">{{ service.translate.content|trans }}</p>
+                    </div>
+                </div>
+                {% if loop.index%3==0 %}
+            </div>
+            <div class="row text-center">
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="fullHeight-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ 'team.heading'|trans }}</h2>
+
+                    <h3 class="section-subheading text-muted">{{ 'team.subheading'|trans }}</h3>
+                </div>
+                <div class="row">
+                </div>
+                {% for team_name, team_data in members %}
+                    <div class="col-sm-{{ (loop.length%3 ==0)?4:(loop.length%2 ==0)?6:3 }}">
+                        <div class="team-member">
+
+                            <img class="img-responsive img-circle" src="{{ asset(team_data.teamPicture) }}" alt="">
+                            <h4>{{ team_data.fullName }}</h4>
+                            <h5>{{ team_data.translate.title }}</h5>
+
+                            <p class="text-muted">{{ team_data.translate.presentation }}</p>
+                            <ul class="list-inline social-buttons">
+                                {% for socialNetwork in team_data.socialNetworks %}
+                                    {% if socialNetwork.url is not null %}
+                                        <li><a href="{{ socialNetwork.url }}" target="_blank"><i
+                                                        class="fa fa-{{ socialNetwork.name }}"></i></a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>{{ 'team.footer'|trans }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">{{ 'contact.heading'|trans }}</h2>
+
+                        <h3 class="section-subheading text-muted">{{ 'contact.subheading'|trans }}</h3>
+                    </div>
+                    <div class="col-lg-12 text-center" id="hoa-contact-lay">
+                        <button id="hoa-contact-us"
+                                class="btn btn-xl btn-huge btn-primary">{{ 'contact.contact_us'|trans }}</button>
+                    </div>
+                </div>
+                <div class="row" id="contact_form">
+                    {{ form_start(contact_form) }}
+                    <div class="col-lg-12">
+                        {{ form_errors(contact_form) }}
+
+                    </div>
+                    <div class="col-md-6">
+                        {{ form_row(contact_form.email) }}
+                        {{ form_row(contact_form.fullName) }}
+                    </div>
+                    <div class="col-md-6">
+                        {{ form_row(contact_form.phone) }}
+                        {{ form_row(contact_form.category,{'attr':{'class':'form-placeholder-style' }}) }}
+                    </div>
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+
+                            {{ form_row(contact_form.message) }}
+
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <hr/>
+                    <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <button type="submit"
+                                class="btn btn-xl btn-huge btn-primary">{{ 'contact.send_message'|trans }}</button>
+                    </div>
+                    {{ form_end(contact_form) }}
+                </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% include ":common:houseofagile.js.twig"%}
+{% endblock %}

@@ -1,0 +1,82 @@
+<script type="text/javascript">
+    /* Standard jquery */
+    smoothScroll.init();
+    $(function () {
+//        $('html, body').animate({scrollTop: 0}, 0);
+
+        $('#gasp-loader').show();
+        $('#hoa-contact-us').click(function () {
+            $(this).addClass('animated bounceOutRight');
+            $("#contact_form").addClass('animated fadeInUp').show();
+            $('#hoa-contact-lay').height(0);
+            smoothScroll.animateScroll( '#hoa-contact-lay' );
+        });
+    });
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('navbar-shrink');
+        } else {
+            $('nav').removeClass('navbar-shrink');
+        }
+    });
+    /* Ready jquery */
+    $(document).ready(function () {
+        $("body").fadeIn();
+
+        setTimeout(function () {
+
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                console.log(navigator.userAgent);
+                adjustSection();
+            }
+            // Fade in sections
+            $("#full-screen-spinner").fadeOut(1600, function () {
+                new WOW().init();
+                $(".intro").show(function () {
+                    $("nav").addClass('animated fadeInUp').show();
+                });
+            });
+        }, 1200);
+    });
+
+    function adjustSection() {
+
+        // Get window size
+        winH = $(window).height();
+
+        // Keep minimum height 600
+        if (winH <= 600) {
+            winH = 600;
+        }
+
+
+        $('.fullHeight-section').each(function () {
+            $(this).height(winH);
+        });
+
+    }
+
+    var opts = {
+        lines: 13, // The number of lines to draw
+        length: 40, // The length of each line
+        width: 16, // The line thickness
+        radius: 60, // The radius of the inner circle
+        corners: 1, // Corner roundness (0..1)
+        rotate: 0, // The rotation offset
+        direction: 1, // 1: clockwise, -1: counterclockwise
+        color: '#000', // #rgb or #rrggbb or array of colors
+        speed: 1, // Rounds per second
+        trail: 100, // Afterglow percentage
+        shadow: true, // Whether to render a shadow
+        hwaccel: true, // Whether to use hardware acceleration
+        className: 'spinner', // The CSS class to assign to the spinner
+        zIndex: 2e9, // The z-index (defaults to 2000000000)
+        top: '50%', // Top position relative to parent
+        left: '50%' // Left position relative to parent
+    };
+    var target = document.getElementById('gasp-loader');
+    var spinner = new Spinner(opts).spin(target);
+    target.appendChild(spinner.el);
+
+
+</script>

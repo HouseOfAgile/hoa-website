@@ -1,0 +1,36 @@
+'Get in touch with us !': 'Get in touch with us !'
+contact: Contact   # FIXME
+contact.contact_us: 'Contact us'
+contact.heading: Contact
+contact.return_to_homepage: 'Return to homepage'
+contact.send_message: 'Get in touch'
+contact.subheading: 'Don''t hesitate to get in touch with us, we are open to all kind of inquiries'
+contact.thanks: 'Thanks for your message'
+contact.we_ll_keep_in_touch: 'Your message is on the way, we keep in touch !'
+
+footer:
+    copyright: 'House of Agile'
+
+form:
+    contact:
+        choose_one: 'Choose a topic'
+        email: 'Give us an email'
+        phone: 'Give us your phone in case you want us to call back'
+        your_name: 'Please enter your full name'
+
+header:
+    punch_phrase_1: 'We deliver Quality'
+    punch_phrase_2: 'We provide Agility'
+    punch_phrase_3: Period
+    tell_me_more: 'This is how !'
+
+login:
+    title: Login
+
+services: Services   # FIXME
+services.heading: 'We provide services over the following domains'
+services.subheading: 'Here are some details about the domain and skills we can provide.'
+team: Team
+team.footer: 'We work with several freelancers and friends on several projects.'
+team.heading: 'A team of expert'
+team.subheading: 'Our team is composed by several experts in their fields and a strong network of solid developers // designers // devops.'

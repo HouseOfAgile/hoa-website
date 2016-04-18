@@ -1,0 +1,13 @@
+hoa_notification:
+    sms_service:
+        active: false
+        twilio:
+            sid: XXXXXXXX
+            authToken: YYYYYYYY
+            version: '2010-04-01'
+            retryAttempts: 3
+            outboundNumber: 32460200099
+    mailer_service:
+        active: true
+        hoa_from_email: %from_address%
+#        Commented as they don't want bcc

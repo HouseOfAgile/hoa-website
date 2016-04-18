@@ -1,0 +1,12 @@
+services:
+    app.mail_office.listener:
+        class: AppBundle\EventListener\OfficeMailListener
+        tags:
+          - { name: kernel.event_subscriber }
+        arguments: [ "@hoa.mailer", "@hoa.twilio.api", "@hoa.notification", "@logger","@translator", "%office_address%" ]
+    app.exception_listener:
+        class: AppBundle\EventListener\ExceptionListener
+        arguments:
+            - "@router"
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception }

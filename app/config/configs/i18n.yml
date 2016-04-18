@@ -1,0 +1,35 @@
+lunetics_locale:
+    strict_mode: true
+    guessing_order:
+        - router
+        - session
+        - browser
+    allowed_locales: %locales%
+    switcher:
+        template: common/locale_switcher.html.twig
+        show_current_locale: true
+
+lexik_translation:
+    fallback_locale: [%locale%]
+    managed_locales: %locales%
+    resources_registration:
+        type: files
+
+# app/config/config.yml
+a2lix_translation_form:
+    locale_provider: default       # [1]
+    locales: "%locales%"
+    default_locale: "%locale%"             # [1-b]
+    required_locales: [en]         # [1-c]
+    manager_registry: doctrine      # [2]
+    templating: "A2lixTranslationFormBundle::default.html.twig"      # [3]
+
+jms_translation:
+    configs:
+        app:
+            dirs: [%kernel.root_dir%/../app, %kernel.root_dir%/../src]
+            output_dir: %kernel.root_dir%/Resources/translations
+            ignored_domains: [routes,FOSUserBundle,validators]
+            excluded_names: ["*TestCase.php", "*Test.php", "*Context.php" ]
+            excluded_dirs: [cache, data, logs]
+            keep: true

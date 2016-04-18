@@ -1,0 +1,90 @@
+{
+  "name": "symfony/framework-standard-edition",
+  "license": "MIT",
+  "type": "project",
+  "description": "The \"Symfony Standard Edition\" distribution",
+  "autoload": {
+    "psr-4": {"": "src/"},
+    "classmap": [
+      "app/AppKernel.php",
+      "app/AppCache.php"
+    ]
+  },
+  "require": {
+    "php": ">=5.3.9",
+    "symfony/symfony": "2.8.*",
+    "doctrine/orm": "^2.4.8",
+    "doctrine/doctrine-bundle": "~1.4",
+    "symfony/swiftmailer-bundle": "~2.3",
+    "symfony/monolog-bundle": "~2.4",
+    "sensio/distribution-bundle": "~5.0",
+    "sensio/framework-extra-bundle": "^3.0.2",
+    "incenteev/composer-parameter-handler": "~2.0",
+    "braincrafted/bootstrap-bundle": "dev-master",
+    "symfony/assetic-bundle": "^2.8",
+    "twbs/bootstrap": "@stable",
+    "jquery/jquery": "1.11.*",
+    "lexik/translation-bundle": "~3.1",
+    "lunetics/locale-bundle": "2.2.*",
+    "sonata-project/admin-bundle": "^2.3",
+    "sonata-project/doctrine-orm-admin-bundle": "^2.3",
+    "friendsofsymfony/user-bundle": "~2.0@dev",
+    "gedmo/doctrine-extensions":      "dev-master",
+    "knplabs/doctrine-behaviors":"~1.1",
+    "a2lix/translation-form-bundle": "~2.1",
+    "hautelook/alice-bundle":"@stable",
+    "doctrine/data-fixtures":"@stable",
+    "jms/translation-bundle": "dev-master",
+    "houseofagile/notification-bundle": "dev-master"
+
+  },
+  "require-dev": {
+    "sensio/generator-bundle": "~3.0",
+    "symfony/phpunit-bridge": "~2.7"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+    ],
+    "post-update-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+    ]
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "extra": {
+    "symfony-app-dir": "app",
+    "symfony-web-dir": "web",
+    "symfony-assets-install": "relative",
+    "incenteev-parameters": {
+      "file": "app/config/parameters.yml"
+    },
+    "branch-alias": {
+      "dev-master": "2.8-dev"
+    }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "jquery/jquery",
+        "version": "1.11.1",
+        "dist": {
+          "url": "https://code.jquery.com/jquery-1.11.1.js",
+          "type": "file"
+        }
+      }
+    }
+  ]
+}

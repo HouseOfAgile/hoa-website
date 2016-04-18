@@ -1,0 +1,5 @@
+services:
+    app_user_provider.admin:
+        class: FOS\UserBundle\Security\EmailUserProvider
+        arguments: ['@app_manager.user_admin']
+        public: false

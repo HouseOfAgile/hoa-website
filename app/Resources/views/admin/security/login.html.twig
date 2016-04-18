@@ -1,0 +1,38 @@
+{% extends 'admin/layout.html.twig' %}
+
+{% block sonata_nav '' %}
+{% block logo '' %}
+{% block sonata_left_side '' %}
+{% block body_attributes %}class="sonata-bc bg-black"{% endblock %}
+
+{% block sonata_wrapper %}
+    <div class="form-box" id="login-box">
+        <div class="header">Authentication</div>
+        {% block sonata_user_login_form %}
+            <form action="{{ path("admin_login_check") }}" method="post" role="form">
+                <div class="body bg-gray">
+                    {% if error %}
+                        <div class="alert alert-danger alert-dismissible fade in" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            {{ error.messageKey|trans(error.messageData, 'security') }}
+                        </div>
+                    {% endif %}
+
+                    <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}"/>
+
+                    <div class="form-group control-group">
+                        <input type="text" class="form-control" id="username"  name="_username" value="{{ last_username }}" required="required" placeholder="Username"/>
+                    </div>
+
+                    <div class="form-group control-group">
+                        <input type="password" class="form-control" id="password" name="_password" required="required" placeholder="Password"/>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <button type="submit" id="_submit" name="_submit" class="btn bg-olive btn-block">{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}</button>
+                </div>
+            </form>
+        {% endblock %}
+    </div>
+{% endblock sonata_wrapper %}

@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    {% if error %}
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert">
+                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+            </button>
+            {{ error.messageKey|trans(error.messageData, 'security') }}
+        </div>
+    {% endif %}
+
+    <div class="container">
+    {{ block('fos_user_content') }}
+    </div>
+
+{% endblock body %}

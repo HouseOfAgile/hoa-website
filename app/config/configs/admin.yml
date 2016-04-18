@@ -1,0 +1,25 @@
+sonata_block:
+    default_contexts: [cms]
+    blocks:
+        # enable the SonataAdminBundle block
+        sonata.admin.block.admin_list:
+            contexts: [admin]
+
+sonata_admin:
+    title:      'HOA'
+    title_logo: images/favicon-144.png
+    templates:
+        layout: admin/layout.html.twig
+#        user_block: admin/block/user_block.html.twig
+    security:
+        handler: sonata.admin.security.handler.role
+    dashboard:
+        groups:
+            hoacontent:
+                label: Content
+                label_catalogue: admin
+                icon:            '<i class="fa fa-users"></i>'
+            communication:
+                label:           Communication
+                label_catalogue: admin
+                icon:            '<i class="fa fa-envelope-o"></i>'

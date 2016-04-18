@@ -1,0 +1,36 @@
+'Get in touch with us !': 'Get in touch with us !'
+contact: contact   # FIXME
+contact.contact_us: 'Contactez nous!'
+contact.heading: Contact
+contact.return_to_homepage: Retour à l'accueil
+contact.send_message: 'nous contacter'
+contact.subheading: 'n''hésitez pas nous contacter, nous sommes ouvert à toutes prospositions'
+contact.thanks: Merci
+contact.we_ll_keep_in_touch: Votre message a été envoyé, nous vous répondrons dans les plus bref délais.
+
+footer:
+    copyright: __footer.copyright
+
+form:
+    contact:
+        choose_one: 'Choose a topic'
+        email: 'Give us an email'
+        phone: 'Give us your phone in case you want us to call back'
+        your_name: 'Please enter your full name'
+
+header:
+    punch_phrase_1: Nous fournissons de la qualité
+    punch_phrase_2: Tout en étant agile et efficace
+    punch_phrase_3:
+    tell_me_more: En savoir plus
+
+login:
+    title: Login
+
+services: Services   # FIXME
+services.heading: Nous fournissons du service autour des domaines suivants
+services.subheading: Voici quelques détails sur les différents domaines que nous couvrons dans le cadre de nos activités de consulting
+team: Equipe
+team.footer: Nous travaillons avec beaucoup de freelancers indépendants et de personnes de notre réseau.
+team.heading: Une équipe d'exprt
+team.subheading: Nous sommes plusieurs experts complémentaires capable de développer toutes sortes de projet, tout en étant soutenu par un gros réseau de developpeurs // Designers // DevOps
