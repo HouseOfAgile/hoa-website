@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca406efc-270a-4108-8671-89f67cdb24b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/common/houseofagile.js.twig" afterPath="$PROJECT_DIR$/app/Resources/views/common/houseofagile.js.twig" />
     </list>
     <ignored path="hoa-website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7607973" vertical-offset="645" max-vertical-offset="1692">
+            <state vertical-scroll-proportion="-25.444445" vertical-offset="645" max-vertical-offset="1692">
               <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
@@ -96,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="houseofagile.js.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="houseofagile.js.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/common/houseofagile.js.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1566">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5182724" vertical-offset="378" max-vertical-offset="1566">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -153,7 +152,6 @@
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/app/config/configs/i18n.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/DataFixtures/ORM/team.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/common/houseofagile.js.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/app/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/app/homepage.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
@@ -164,6 +162,7 @@
         <option value="$PROJECT_DIR$/app/Resources/translations/messages.fr.yml" />
         <option value="$PROJECT_DIR$/app/Resources/translations/messages.en.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/common/houseofagile.js.twig" />
       </list>
     </option>
   </component>
@@ -768,18 +767,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/common/houseofagile.js.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-25.444445" vertical-offset="645" max-vertical-offset="1692">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/common/houseofagile.js.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7607973" vertical-offset="645" max-vertical-offset="1692">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5182724" vertical-offset="378" max-vertical-offset="1566">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding />
         </state>
       </provider>
