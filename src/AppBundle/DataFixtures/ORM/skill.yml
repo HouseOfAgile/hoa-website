@@ -1,0 +1,104 @@
+AppBundle\Entity\ServiceTranslation:
+    service_product_en:
+        title: Product
+        content: We focus on test-driven development, thus we have a strong Behavior Driven Development philosophy, which ensure that the development is lead by both business interests and technical insight. We have a team of designer used to mockup our product features with standard tools, which then embeded into our codebase with the latest BDD tool available (Behat/Cucumber)
+        locale: 'en'
+    service_product_fr:
+        title: Produit
+        content: TBC
+        locale: 'fr'
+    service_product_de:
+        title: Produkt
+        content: TBC
+        locale: 'de'
+
+    service_method_en:
+        title: Method
+        content: Based on our experience and our skills, we apply the House of agile Methodology, which is an adaptation of the Agile Scrum Methodology
+        locale: 'en'
+    service_method_fr:
+        title: Produit
+        content: TBC
+        locale: 'fr'
+    service_method_de:
+        title: Produkt
+        content: TBC
+        locale: 'de'
+
+    service_delivery_en:
+        title: Delivery
+        content: Thanks to our highly optimized development//deployment system, we usually can deploy version within seconds. Our strong testing philosophy give combined with the latest continuous integration technology make delivery smooth and easy
+        locale: 'en'
+    service_delivery_fr:
+        title: Delivery
+        content: TBC
+        locale: 'fr'
+    service_delivery_de:
+        title: Delivery
+        content: TBC
+        locale: 'de'
+
+    service_agility_en:
+        title: Agility
+        content: We are Scrum evangelist since some years, we already helped several companies to embrace the agility with great success. If you are still playing with waterfall, come to us ;)
+        locale: 'en'
+    service_agility_fr:
+        title: Produit
+        content: TBC
+        locale: 'fr'
+    service_agility_de:
+        title: Agility
+        content: TBC
+        locale: 'de'
+
+    service_standard_en:
+        title: Standard
+        content: We follow standard, we base our work on the most efficient and standardized technical stack. We use the most praised language in order to ensure extensibility and maintenance over time.
+        locale: 'en'
+    service_standard_fr:
+        title: Standard
+        content: TBC
+        locale: 'fr'
+    service_standard_de:
+        title: Standard
+        content: TBC
+        locale: 'de'
+
+    service_efficiency_en:
+        title: Efficiency
+        content: We are adept of smart and efficient tools. Don't reinvent the wheel, KISS, and Get the job done are some of our mottos.
+        locale: 'en'
+    service_efficiency_fr:
+        title: Efficiency
+        content: TBC
+        locale: 'fr'
+    service_efficiency_de:
+        title: Produkt
+        content: TBC
+        locale: 'de'
+
+AppBundle\Entity\Service:
+    service_product:
+        name: product
+        icon: lightbulb-o
+        translation: [@service_product_en,@service_product_fr,@service_product_de]
+    service_method:
+        name: method
+        icon: laptop
+        translation: [@service_method_en,@service_method_fr,@service_method_de]
+    service_delivery:
+        name: delivery
+        icon: space-shuttle
+        translation: [@service_delivery_en,@service_delivery_fr,@service_delivery_de]
+    service_method:
+        name: agility
+        icon: retweet
+        translation: [@service_agility_en,@service_agility_fr,@service_agility_de]
+    service_standard:
+        name: standard
+        icon: html5
+        translation: [@service_standard_en,@service_standard_fr,@service_standard_de]
+    service_efficiency:
+        name: efficiency
+        icon: 'cog fa-spin'
+        translation: [@service_efficiency_en,@service_efficiency_fr,@service_efficiency_de]

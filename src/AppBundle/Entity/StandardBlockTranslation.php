@@ -6,10 +6,10 @@ use Knp\DoctrineBehaviors\Model as ORMBehaviors;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Services
+ * StandardBlockTranslation
  * @ORM\Entity
  */
-class ServiceTranslation
+class StandardBlockTranslation
 {
     use ORMBehaviors\Translatable\Translation;
 

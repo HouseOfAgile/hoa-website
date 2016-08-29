@@ -9,9 +9,9 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Services
  * @ORM\Entity
- * @ORM\Table(name="service")
+ * @ORM\Table(name="skill")
  */
-class Service  extends StandardBlock
+class Skill extends StandardBlock
 {
 
 

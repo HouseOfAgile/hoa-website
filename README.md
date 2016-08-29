@@ -1,7 +1,7 @@
 House of agile website
 ========================
 
-We are a web agency, working with any technologies, we decided to go for symfony to have a simple presentation website with some extra features in a rather rapid development time (less than a day of development). This is a good exameple on how to start a project and was presented to our last "Agile Party in the House" in Berlin.
+We are a web agency, working with any technologies, we decided to go for symfony to have a simple presentation website with some extra features in a rather rapid development time (less than a day of development). This is a good exameple on how to start a project and was presented to our last "Agile Party in the House" meetup in Berlin.
 
 Technical Stack
 ==============
