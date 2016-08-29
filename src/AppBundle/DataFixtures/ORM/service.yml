@@ -1,11 +1,11 @@
-AppBundle\Entity\ServiceTranslation:
+AppBundle\Entity\StandardBlockTranslation:
     service_product_en:
         title: Product
         content: We focus on test-driven development, thus we have a strong Behavior Driven Development philosophy, which ensure that the development is lead by both business interests and technical insight. We have a team of designer used to mockup our product features with standard tools, which then embeded into our codebase with the latest BDD tool available (Behat/Cucumber)
         locale: 'en'
     service_product_fr:
         title: Produit
-        content: TBC
+        content: Nous pratiquons du développement piloté par les tests, ainsi nous avons adopté la philosophie Behavior driven development (ou BDD), qui nous assure que le dévelopment se déroule en prenant à la fois en compte les intérêtes business and les aspects techniques. Nous travaillons avec des designers rompus aux outils standard de design produit, et capable de travaillé directementsuivant cette méthodologie.
         locale: 'fr'
     service_product_de:
         title: Produkt
@@ -14,11 +14,11 @@ AppBundle\Entity\ServiceTranslation:
 
     service_method_en:
         title: Method
-        content: Based on our experience and our skills, we apply the House of agile Methodology, which is one adaptation of the Agile Scrum Methodology
+        content: Based on our experience and our skills, we apply the House of Agile Methodology, which is one adaptation of the Agile Scrum Methodology
         locale: 'en'
     service_method_fr:
         title: Produit
-        content: TBC
+        content: En s'appuyant sur notre expérience et nos coiméptences, nous avons développé la méthodologie House of Agile, qui est une adaptation de la méthodologie Agile Scrum
         locale: 'fr'
     service_method_de:
         title: Produkt
@@ -31,7 +31,7 @@ AppBundle\Entity\ServiceTranslation:
         locale: 'en'
     service_delivery_fr:
         title: Delivery
-        content: TBC
+        content: Grâce à notre infrastructure de development/deployment, nous pouvons développer et déployer en continue en quelques secondes. Notre politique de tests intensives alliée aux dernières technologies d'intégration continue rendent le déploiement simple et efficace
         locale: 'fr'
     service_delivery_de:
         title: Delivery
@@ -44,7 +44,7 @@ AppBundle\Entity\ServiceTranslation:
         locale: 'en'
     service_agility_fr:
         title: Produit
-        content: TBC
+        content: Nous promottons la méthodologie Scrum après l'avoir implantée successivement dans plusieurs compagnies. Si vous travailler toujours en gestion de projet standard, nous pouvons apporter toute notre expertise pour des projets de migration vers des méthodes plus efficaces et surtout agile
         locale: 'fr'
     service_agility_de:
         title: Agility
@@ -53,11 +53,11 @@ AppBundle\Entity\ServiceTranslation:
 
     service_standard_en:
         title: Standard
-        content: We follow standard, we base our work on the most efficient and standardized technical stack. We use the most praised language in order to ensure extensibility and maintenance over time.
+        content: We follow standard, we base our work on the most efficient and standardized technical stack. We uses praised languages (python, php, javascript) in order to ensure extensibility and maintenance over time.
         locale: 'en'
     service_standard_fr:
         title: Standard
-        content: TBC
+        content: Nous suivons les standards en se basant sur les technologies les plus adaptées. Nous utilisons des languages réputés et solides, permettant extensibilité et soutenu par des communautés importantes, permettant un support étendu et une maintenance simplifiée
         locale: 'fr'
     service_standard_de:
         title: Standard
@@ -70,7 +70,7 @@ AppBundle\Entity\ServiceTranslation:
         locale: 'en'
     service_efficiency_fr:
         title: Efficiency
-        content: TBC
+        content: Nous sommes adeptes des outils efficaces et intelligents. Ne pas réinventer la roue et compléter les missions avec succès font partie de nos objectifs principaux.
         locale: 'fr'
     service_efficiency_de:
         title: Produkt
@@ -90,7 +90,7 @@ AppBundle\Entity\Service:
         name: delivery
         icon: space-shuttle
         translation: [@service_delivery_en,@service_delivery_fr,@service_delivery_de]
-    service_method:
+    service_agility:
         name: agility
         icon: retweet
         translation: [@service_agility_en,@service_agility_fr,@service_agility_de]

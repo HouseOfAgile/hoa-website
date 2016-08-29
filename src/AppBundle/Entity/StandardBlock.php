@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * StandardBlock
  * @ORM\MappedSuperclass
- * @ORM\Table(name="standard_block")
+ * @ORM\Entity
  * @ORM\InheritanceType("SINGLE_TABLE")
  * @ORM\DiscriminatorColumn(name="typeOfBlock", type="string")
  * @ORM\DiscriminatorMap({
@@ -32,10 +32,6 @@ class StandardBlock
      */
     private $id;
 
-    /**
-     * @ORM\Column(name="typeOfBlock", length=32, nullable=true)
-     */
-    protected $typeOfBlock;
 
     /**
      * @ORM\Column(length=256, nullable=true)
@@ -54,22 +50,6 @@ class StandardBlock
     public function getId()
     {
         return $this->id;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getTypeOfBlock()
-    {
-        return $this->typeOfBlock;
-    }
-
-    /**
-     * @param mixed $typeOfBlock
-     */
-    public function setTypeOfBlock($typeOfBlock)
-    {
-        $this->typeOfBlock = $typeOfBlock;
     }
 
     /**
